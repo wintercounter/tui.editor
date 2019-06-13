@@ -10,7 +10,7 @@ const HTML_ATTR_LIST_RX = new RegExp('^(abbr|align|alt|axis|bgcolor|border|cellp
     'ismap|lang|language|nohref|nowrap|rel|rev|rows|rules|' +
     'scope|scrolling|shape|size|span|start|summary|tabindex|target|title|type|' +
     'valign|value|vspace|width|checked|mathvariant|encoding|id|name|' +
-    'background|cite|href|longdesc|src|usemap|xlink:href|data-+|checked|style)', 'g');
+    'background|cite|href|longdesc|src|usemap|xlink:href|data-+|checked|style|weight)', 'g');
 
 const SVG_ATTR_LIST_RX = new RegExp('^(accent-height|accumulate|additive|alphabetic|arabic-form|ascent|' +
     'baseProfile|bbox|begin|by|calcMode|cap-height|class|color|color-rendering|content|' +
