@@ -11,7 +11,7 @@ const HTML_ATTR_LIST_RX = new RegExp('^(abbr|align|alt|axis|bgcolor|border|cellp
     'scope|scrolling|shape|size|span|start|summary|tabindex|target|title|type|' +
     'valign|value|vspace|width|checked|mathvariant|encoding|id|name|' +
     'background|cite|href|longdesc|src|usemap|xlink:href|data-+|checked|style|' +
-    'weight|italic|decoration|margin|pad)', 'g');
+    'weight|italic|decoration|margin|pad|scheme|line-height)', 'g');
 
 const SVG_ATTR_LIST_RX = new RegExp('^(accent-height|accumulate|additive|alphabetic|arabic-form|ascent|' +
     'baseProfile|bbox|begin|by|calcMode|cap-height|class|color|color-rendering|content|' +
